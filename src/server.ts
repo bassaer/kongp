@@ -6,7 +6,7 @@ const start = async (port: number, path: string, text: string) => {
         res.send(text);
     });
     app.listen(port, () => {
-        console.log(`start: http://localost:${port}/${path}`);
+        console.log(`start: http://localost:${port}${path}`);
     });
 };
 

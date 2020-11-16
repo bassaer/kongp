@@ -5,8 +5,8 @@
 ❯ yarn dev
 yarn run v1.19.1
 $ ts-node src/server.ts
-start: http://localost:8002//health
-start: http://localost:8003//health
+start: http://localost:8002/health
+start: http://localost:8003/health
 ```
 
 ### start kong
